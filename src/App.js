@@ -61,6 +61,7 @@ function App() {
           type="text"
           value={name}
           onChange={(e) => setName(e.target.value)}
+          disabled
         />
         <input type="text" value={to} onChange={(e) => setTo(e.target.value)} />
         <textarea
